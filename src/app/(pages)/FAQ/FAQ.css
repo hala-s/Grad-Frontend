@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.pageTitle{
+   position: relative;
+   z-index: 1;
+   font-family:  "Nunito", sans-serif;;
+}
+.FAQTitle{
+   font-weight: 900;
+   color: #4C5372;
+   font-size: 36px;
+}
+.shape1{
+   position: absolute;
+   left: 20%;
+   bottom: 10%;
+   z-index: -1
+}
+.shape1 .shape1a{
+   animation-name: rotateme;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear
+}
+.shape2{
+   position: absolute;
+   right: 20%;
+   bottom: 20%;
+   z-index: -1
+}
+.shape2 .shape1a{
+   animation-name: rotateme;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear
+}
+@keyframes rotateme {
+   0% {
+       transform: rotate(0deg)    ;
+       -webkit-transform: rotate(0deg);
+       -moz-transform: rotate(0deg);
+       -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+}
+
+   to {
+       transform: rotate(1turn)    ;
+       -webkit-transform: rotate(1turn);
+       -moz-transform: rotate(1turn);
+       -ms-transform: rotate(1turn);
+       -o-transform: rotate(1turn);
+}
+}
+h2{
+   font-family: 'Nunito', 'sans-serif';
+
+font-size: 36px;
+
+font-weight: 900;
+
+line-height: 43.2px;
+
+color: #4c5372;
+
+
+}
+h3{
+   font-family: 'Nunito', 'sans-serif';
+font-size:20px;
+   
+   font-weight: 900;
+   
+   line-height: 43.2px;
+   
+   color: #4c5372;
+}
+h4{
+   font-family: 'Nunito', 'sans-serif';
+
+font-size: 28px;
+
+font-weight: 800;
+
+line-height: 27.6px;
+
+color: rgb(34, 22, 56);
+
+
+}
+.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #4c5372;
+}
+
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    font-family: 'Nunito', 'sans-serif';
+    font-size:20px;
+       
+       font-weight: 1000 !important;
+       
+       line-height: 43.2px;
+       
+       color: #4c5372; 
+}
+.MuiPaper-root.MuiPaper-elevation.MuiAccordion-rounded{
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, .13);
+    padding: 0.7rem;
+    
+}
+.Accordion-body{
+    width:80%;
+    margin:auto;
+    padding:2.5rem;
+}

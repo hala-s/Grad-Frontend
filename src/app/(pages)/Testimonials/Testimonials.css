@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');.testimonials{
+  background-color: #f4eaf1 !important;
+}
+.title h2{
+  font-family: 'Nunito', 'sans-serif';
+}
+.testimonials .title h2{
+  color: #4C5372;
+  font-weight: 700;
+}
+.pho{
+  border-radius: 45px!important;
+  border-bottom-left-radius:30px ;
+  border-bottom-right-radius:30px ;
+  width: 250px;
+  height: 250px;
+  transform: translateZ(0);
+  transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -webkit-border-radius: 45px!important;
+  -moz-border-radius: 45px!important;
+  -ms-border-radius: 45px!important;
+  -o-border-radius: 45px!important;
+  -webkit-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -moz-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -ms-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -o-transition: all 2000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+}
+.social{
+  width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%;
+    color: #4C5372;
+    list-style: none !important;
+    transition: 0.5s;
+    cursor: pointer;
+ 
+}
+.social:hover{
+  background-color: #4C5372;
+  color: #FFFDF6;
+  transform: rotate(360deg);
+}
+.swiper-pagination-bullet-active {
+  background-color: #4C5372 !important;
+  width: 50px !important;
+}
+.card{
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  box-shadow: 0 5px 13px 6px rgb(212 211 254 / 23%);
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  background-color: #f4eaf1;
+}
+.card:hover{
+  background-color: #4C5372;
+}
+.card h4 a{
+  color: #4C5372;
+  font-family: 'Nunito', 'sans-serif';
+  text-decoration:none;
+
+}
+
+.card:hover h4 a{
+  color: #FFFDF6 !important;
+}
+.card:hover .social{
+  background-color: #FFFDF6;
+  color: #4C5372;
+}
+.card:hover .pho{
+  border-radius: 20px;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.swiper-container {
+  width: 1100;
+}
+
+@media screen and (min-width: 1000px) {
+  .swiper-container {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .swiper-container {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .swiper-container {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .swiper-container {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .swiper-container {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .swiper-container {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .swiper-container {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 300px) {
+  .swiper-container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 200px) {
+  .swiper-container {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 100px) {
+  .swiper-container {
+    width: 100px;
+  }
+}
+.instructorParagraph{
+  color: #949ab1;
+}
+.bar{
+  height: 5px;
+    width: 100px;
+    background:#949ab1a8;
+    margin: auto !important;
+    position: relative;
+    border-radius: 30px;
+}
+.bar:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2.7px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #4C5372;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: MOVE-BG;
+  animation-name: MOVE-BG
+}
+@keyframes MOVE-BG {
+  from {
+      transform: translateX(0)
+  }
+
+  to {
+      transform: translateX(88px)
+  }
+}
+.shape1{
+  position: absolute;
+    left: 25%;
+    bottom: 15%;
+    z-index: 1;
+    -webkit-animation: animationFramesOne 15s infinite linear;
+    animation: animationFramesOne 15s infinite linear;
+}
+@keyframes animationFramesOne {
+  0% {
+      -webkit-transform: translate(0px,0px) rotate(0deg)
+  }
+
+  20% {
+      -webkit-transform: translate(73px,-1px) rotate(36deg)
+  }
+
+  40% {
+      -webkit-transform: translate(141px,72px) rotate(72deg)
+  }
+
+  60% {
+      -webkit-transform: translate(83px,122px) rotate(108deg)
+  }
+
+  80% {
+      -webkit-transform: translate(-40px,72px) rotate(144deg)
+  }
+
+  100% {
+      -webkit-transform: translate(0px,0px) rotate(0deg)
+  }
+}

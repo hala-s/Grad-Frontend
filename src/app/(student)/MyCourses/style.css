@@ -1,0 +1,46 @@
+.css-1jm6k50 {
+    border:1px solid #4c5372 !important;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #4c5372;
+    background-color:#e2d4e0;
+    position:relative;
+}
+.css-1jm6k50 img{
+    border:1px solid #4c5372 !important;
+    border-top-left-radius: 30px !important ;
+    border-bottom-left-radius: 30px !important ;
+
+}
+.css-ag7rrr-MuiTypography-root{
+color:#4c5372 ;
+}
+.css-1ha5wk2-MuiSvgIcon-root {
+    color:#4c5372;
+    border-radius:50%;
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    position:absolute;
+    right:20px;
+    bottom:15px;
+
+
+}
+.css-1ha5wk2-MuiSvgIcon-root:hover {
+    color:#ede7f6;
+    background-color: #4c5372;
+}
+.css-10hburv-MuiTypography-root,.css-i4bv87-MuiSvgIcon-root{
+    color: #fffdf6;
+  }
+  .arrowIcon{
+    color: #4c5372 !important;
+  }
+  @media screen and (max-width: 576px){
+      .singleCourse{
+        width: fit-content !important;
+        height: auto;
+      }
+  }

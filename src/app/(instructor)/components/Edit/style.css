@@ -1,0 +1,31 @@
+.EditTask{
+    position:absolute;
+    top:28%;
+    left:30%;
+}
+.EditTask .col-md-6{
+  width:100%
+}
+.EditTask .css-1xu2qw-MuiButtonBase-root-MuiButton-root {
+    background-color: #4c5372;
+
+}
+.edit .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width:700px !important;
+}
+
+.EditLink{
+  position:absolute;
+  top:32%;
+  left:30%;
+}
+.EditLink .col-md-6{
+width:100%
+}
+.EditLink .css-1xu2qw-MuiButtonBase-root-MuiButton-root {
+  background-color: #4c5372;
+
+}
+.EditLink .form-floating>.form-control, .form-floating>.form-control-plaintext, .form-floating>.form-select{
+  width:600px;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&display=swap');
+
+.css-1xylxj1-MuiTypography-root-MuiLink-root {
+    color: black !important;
+}
+.material .css-6dt1q3-MuiList-root {
+    background-color:transparent;
+    border-width: 2px;
+    border-color: #4c5372;
+     margin-left:50px;
+    position:absolute;
+    top:32%;
+width:70% !important;}
+.link .css-ntguwq-MuiList-root {
+    border-color: #4c5372;
+    border-width: 2px;
+
+}
+.task .css-whk7y5-MuiList-root {
+    border-color: #4c5372;
+    border-width: 2px;
+
+}
+.css-do33d8-MuiStack-root{ position:absolute;
+    top: 18%;
+    right:9%;
+width:70% !important;}
+.css-1qrdt9m-MuiList-root  {
+    top:30%;
+    background-color:transparent;
+    border-width: 2px;
+    border-color: #4c5372;
+    width:90% !important;
+   
+  }
+
+
+  .css-9mgopn-MuiDivider-root {
+    border-width: 1px;
+    border-color: #4c5372;
+}
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root {
+    background-color:#4c5372;
+}
+.css-1pe4mpk-MuiButtonBase-root-MuiIconButton-root:hover {
+    background-color:#4c5372;
+}
+.css-18k87ye-MuiTypography-root{
+    font-family: "Acme", sans-serif;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size:30px;
+    color:#4c5372 !important ;
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    font-family:  "Nunito", sans-serif;
+}
+.primaryBg{
+    background-color: #4C5372 !important;
+    color: #fffdf6;
+}
+
+.addCodeWrapper{
+    padding-top: 20px;
+    border: 1px solid #4C5372;
+    border-radius: 10px;
+}
+.titleColor{
+    color: #4C5372;
+    font-family:  "Nunito", sans-serif;
+}
+.resendCode button{
+    color: #4C5372;
+    width: fit-content;
+}
+.addEmailSection{
+    padding: 30px;
+    border: 1px solid #4C5372;
+    border-radius: 10px;
+}
+iframe{
+    width: 600px !important;
+    height: 600px !important;
+}
+.addEmailForget{
+    border: 1px solid #4C5372;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  .instructor-feedback .swiper-wrapper {
+    justify-content:center;
+  }
+  .instructor-feedback .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .instructor-feedback .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 50px 105px 50px 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    width:500px !important;
+  }
+  
+  .instructor-feedback .swiper-slide:after {
+    width: 75px;
+    height: 75px;
+    content: "";
+    border-radius: 50%;
+    background-color:#4C5372;
+    position: absolute;
+    left: -25px;
+    top: -25px;
+    z-index: -1;
+}
+.instructor-feedback .swiper-slide:before {
+  content: ",,";
+  font-family: Flaticon !important;
+  font-size: 100px;
+  position: absolute;
+  right: 60px;
+  color: #e8e8e8;
+  z-index: -1;
+  bottom: 50px;
+  line-height: 1;
+}
+.instructor-feedback .swiper-slide p {
+  color: #606060;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.instructor-feedback  .swiper-slide img {
+    width: 55px;
+    height: 55px;
+  }
+  .instructor-feedback  .swiper-pagination {
+position:inherit !important;
+  }
+  .instructor-feedback .swiper-slide .client-info .title h3 {
+    margin-bottom: 0;
+    color: #4C5372;
+    font-size: 17px;
+    font-weight: 700;
+}
+.instructor-feedback .css-15befwp-MuiRating-root {
+  font-size:1.2rem !important;
+  margin-top:3px;
+}

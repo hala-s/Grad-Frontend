@@ -1,0 +1,42 @@
+.studentDash {
+    background-image:url('./image/bg11.jpg') !important;
+    background-size:cover;
+    background-position-y: 45%;
+}
+.css-h93ljk-MuiTypography-root {
+    color: #4c5372 !important ;
+  }
+  .css-18k87ye-MuiTypography-root {
+    color: #4c5372 !important ;
+  }
+  .css-10hburv-MuiTypography-root,.css-i4bv87-MuiSvgIcon-root{
+    color: #fffdf6;
+  }
+  @media screen and (max-width: 900px){
+    .courses{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
+  @media screen and (max-width: 576px){
+    .studentDash{
+      background-image: none !important;
+      width: fit-content;
+      height: auto;
+      background-color: #4c5372 !important;
+      text-align: center !important;
+    }
+    .courses{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .welcome{
+      padding: 10px;
+    }
+    .wel{
+      padding-bottom: 10px;
+      text-align: center;
+    }
+  }

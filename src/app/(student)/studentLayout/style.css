@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: white !important;
+}
+@media (max-width: 599px) {
+  .css-148h8wx-MuiStack-root {
+      width: 100%;
+    }
+  }
+  .css-j0az1w-MuiDrawer-docked .MuiDrawer-paper {
+    background-color: #4c5372 !important;
+}
+.css-x00mp-MuiTypography-root {
+  color: #4c5372 !important ;
+}
+.css-i4bv87-MuiSvgIcon-root,.css-10hburv-MuiTypography-root {
+  color: #FFFDF6 !important;
+  }
+
+.side-drawer{
+    background-color: #4C5372 !important;
+    color: #fffdf6;
+    height:100%;
+}
+.side-drawer span, .side-drawer a,.side-drawer svg{
+    color: #fffdf6;
+}
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+    background-color: #4C5372 !important;
+    color: #fffdf6;
+}
+
+.css-1l88nyr{
+    background-color: #4C5372 !important;
+}
+.side-drawer2{
+    color: #4C5372 !important;
+}
+.drawerSide .titleSide{
+    color: #4C5372 !important;
+    font-weight: 800!important;
+    font-family: "Poppins", sans-serif!important;
+}
+.sideFoot{
+  background-color: #4C5372 !important;
+}
+.sideContent {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sideContent .sideItem{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.menuIcon{
+  color: #4C5372 !important;
+}

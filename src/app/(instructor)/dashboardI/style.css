@@ -1,0 +1,19 @@
+.css-1pb45rs {
+    background-image:url('./image/bg11.jpg') !important;
+    background-size:cover;
+    background-position-y: 45%;
+}
+.css-h93ljk-MuiTypography-root {
+    color: #4c5372 !important ;
+  }
+  .css-x00mp-MuiTypography-root {
+    color: #4C5372 !important;
+    font-weight: 800 !important;
+    font-family: "Poppins", sans-serif !important;
+}
+.page-Size{
+  width: 100px;
+}
+.css-10hburv-MuiTypography-root,.css-i4bv87-MuiSvgIcon-root{
+  color: #fffdf6;
+}
